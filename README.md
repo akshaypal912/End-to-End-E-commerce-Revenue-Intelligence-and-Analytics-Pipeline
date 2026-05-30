@@ -134,12 +134,13 @@ Ecommerce-Revenue-Analytics-Pipeline/
 ├── data/
 │   ├── cleaned_data.csv
 │   ├── forecasting_dataset.csv
+|
 │
 ├── sql/
-│   ├── data_cleaning.sql
-│   ├── kpi_analysis.sql
-│   ├── revenue_trends.sql
-│   ├── window_functions.sql
+│   |
+│   ├── kpi_analysis.sql(all query done in this file)
+│   ├── forecasting.sql
+│   ├── 
 │
 ├── python/
 │   ├── revenue_forecasting.ipynb
@@ -148,9 +149,6 @@ Ecommerce-Revenue-Analytics-Pipeline/
 ├── dashboard/
 │   ├── Ecommerce_Revenue_Dashboard.pbix
 │   ├── dashboard_screenshots/
-│
-├── presentation/
-│   ├── project_report.pdf
 │
 ├── README.me
 ```
