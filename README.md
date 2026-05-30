@@ -318,8 +318,8 @@ Open `powerbi/ecommerce_dashboard.pbix` in Power BI Desktop. Update the data sou
 ## 👤 Author
 
 **Your Name**
-- LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/akshay-pal-aa7944322/)
-- GitHub: [github.com/yourusername](https://github.com/akshaypal912)
+- LinkedIn: [linkedin.com/in/akshaypal](https://www.linkedin.com/in/akshay-pal-aa7944322/)
+- GitHub: [github.com/akshaypal912](https://github.com/akshaypal912)
 
 ---
 
