@@ -26,9 +26,9 @@ This project simulates a real-world business intelligence workflow from raw data
 │                        ETL PIPELINE                         │
 │                                                             │
 │  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐  │
-│  │   EXTRACT    │───▶│  TRANSFORM   │───▶│     LOAD     │  │
-│  │              │    │              │    │              │  │
-│  │ REST API     │    │ Data Clean   │    │ PostgreSQL   │  │
+│  │   EXTRACT    │───▶│  TRANSFORM   │───▶│     LOAD     │ │
+│  │              │    │              │    │               │ │
+│  │ REST API     │    │ Data Clean   │    │ PostgreSQL    │ │
 │  │ JSON fetch   │    │ Feature Eng  │    │ Data Warehouse│ │
 │  │ Raw CSV save │    │ Synthetic    │    │ Structured   │  │
 │  │              │    │ Sales Gen    │    │ Tables       │  │
@@ -42,7 +42,7 @@ This project simulates a real-world business intelligence workflow from raw data
                               ↓
               ┌───────────────────────────────┐
               │      FORECASTING LAYER        │
-              │           3 months │
+              │           3 months            │
               └───────────────────────────────┘
                               ↓
               ┌───────────────────────────────┐
