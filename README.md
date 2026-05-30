@@ -42,7 +42,7 @@ This project simulates a real-world business intelligence workflow from raw data
                               ↓
               ┌───────────────────────────────┐
               │      FORECASTING LAYER        │
-              │   Prophet / ARIMA — 12 months │
+              │           3 months │
               └───────────────────────────────┘
                               ↓
               ┌───────────────────────────────┐
@@ -176,7 +176,7 @@ Wrote 20+ SQL queries covering:
 - Product performance ranking
 - Customer lifetime value (CLV)
 - RFM segmentation
-- Window functions: `LAG()`, `RANK()`, `NTILE()`, `SUM() OVER`, `PERCENT_RANK()`
+- Window functions: `LAG()`, `RANK()`, `SUM() OVER`
 
 ### Step 5 — Forecasting
 Built a time-series revenue forecast using Prophet/ARIMA. Generated 12-month actual vs forecasted comparison with month-over-month growth percentages.
@@ -321,8 +321,8 @@ Open `powerbi/ecommerce_dashboard.pbix` in Power BI Desktop. Update the data sou
 ## 👤 Author
 
 **Your Name**
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- GitHub: [github.com/yourusername](https://github.com/yourusername)
+- LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/akshay-pal-aa7944322/)
+- GitHub: [github.com/yourusername](https://github.com/akshaypal912)
 
 ---
 
