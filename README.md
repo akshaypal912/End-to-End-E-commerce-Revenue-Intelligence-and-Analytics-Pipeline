@@ -129,31 +129,30 @@ print(f"Loaded {len(df)} rows successfully")
 ## 📂 Project Structure
 
 ```
-ecommerce-analytics-pipeline/
+Ecommerce-Revenue-Analytics-Pipeline/
 │
 ├── data/
-│   ├── raw/                        # Raw API response data (Extract output)
-│   ├── cleaned_sales_data.csv      # Cleaned & enriched sales data (Transform output)
-│   └── forecasting_dataset.csv     # Actual vs forecasted revenue
-│
-├── etl/
-│   ├── extract.py                  # REST API data fetching
-│   ├── transform.py                # Cleaning, feature engineering
-│   └── load.py                     # PostgreSQL loading
+│   ├── cleaned_data.csv
+│   ├── forecasting_dataset.csv
 │
 ├── sql/
-│   └── sql_analytics.sql           # All SQL queries — analytics, KPIs, window functions
+│   ├── data_cleaning.sql
+│   ├── kpi_analysis.sql
+│   ├── revenue_trends.sql
+│   ├── window_functions.sql
 │
-├── notebooks/
-│   ├── 01_data_fetching.ipynb      # REST API integration
-│   ├── 02_data_cleaning.ipynb      # Cleaning & feature engineering
-│   ├── 03_synthetic_sales.ipynb    # Synthetic sales generation
-│   └── 04_forecasting.ipynb        # Revenue forecasting
+├── python/
+│   ├── revenue_forecasting.ipynb
+│   ├── forecasting_model.py
 │
-├── powerbi/
-│   └── ecommerce_dashboard.pbix    # Power BI dashboard file
+├── dashboard/
+│   ├── Ecommerce_Revenue_Dashboard.pbix
+│   ├── dashboard_screenshots/
 │
-└── README.md
+├── presentation/
+│   ├── project_report.pdf
+│
+├── README.me
 ```
 
 ---
